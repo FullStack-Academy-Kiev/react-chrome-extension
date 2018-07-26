@@ -5,17 +5,6 @@ function genericOnClick(info, tab) {
   console.log("tab: " + JSON.stringify(tab));
 }
 
-// Create one test item for each context type.
-var contexts = ["page","selection","link","editable","image","video","audio"];
-for (var i = 0; i < contexts.length; i++) {
-  var context = contexts[i];
-  var title = "Test '" + context + "' menu item";
-  var id = chrome.contextMenus.create({"title": title, "contexts":[context],
-                                       "onclick": genericOnClick});
-  console.log("'" + context + "' item:" + id);
-}
-
-
 // Create a parent item and two children.
 var parent = chrome.contextMenus.create({"title": "Test parent item"});
 var child1 = chrome.contextMenus.create(
