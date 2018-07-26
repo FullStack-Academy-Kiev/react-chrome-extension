@@ -1,0 +1,18 @@
+{
+  "short_name": "React App",
+  "name": "React Extension",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "React Ext"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "react16.png",
+    "48": "react48.png",
+    "128": "react128.png"
+  },
+  "version": "1.0"
+}
