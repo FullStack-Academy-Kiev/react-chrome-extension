@@ -1,14 +1,10 @@
 {
-  "name": "A browser action with a popup that changes the page color",
-  "description": "Change the current page color",
-  "version": "1.0",
-  "permissions": [
-    "activeTab"
-  ],
-  "browser_action": {
-      "default_title": "Set this page's color.",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+  "name": "Context Menus Sample",
+  "description": "Shows some of the features of the Context Menus API",
+  "version": "0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["background.js"]
   },
   "manifest_version": 2
 }
