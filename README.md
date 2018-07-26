@@ -9,3 +9,5 @@ This Chrome Extension was bootstrapped with [Create React App](https://github.co
 
 Doc Instruction - 
 [chrome extension docx](https://github.com/FullStack-Academy-Kiev/react-chrome-extension/blob/master/chrome-extension-doc.docx)
+
+Vanila JS example for Popup in branch ```popup``` and context menu in branch ```contextmenu```
