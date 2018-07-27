@@ -1,14 +1,11 @@
 {
-  "name": "A browser action with a popup that changes the page color",
-  "description": "Change the current page color",
-  "version": "1.0",
-  "permissions": [
-    "activeTab"
-  ],
+  "name" : "Content settings",
+  "version" : "0.1",
+  "description" : "Shows the content settings for the current site.",
+  "permissions": [ "contentSettings", "tabs" ],
   "browser_action": {
-      "default_title": "Set this page's color.",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
   },
   "manifest_version": 2
 }
