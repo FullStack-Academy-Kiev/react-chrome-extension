@@ -11,6 +11,7 @@ Doc Instruction -
 [chrome extension docx](https://github.com/FullStack-Academy-Kiev/react-chrome-extension/blob/master/chrome-extension-doc.docx)
 
 React App in Popup - ```master``` branch
+
 React App in Content Script - ```react-content-script``` branch
 
 Vanila JS example for Popup in branch ```popup```, content setting in ```content-settings``` and context menu in branch ```contextmenu```
