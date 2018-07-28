@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/FullStack-Academy-Kiev/react-chrome-extension/master/react-chrome-extension.png)
+
 This Chrome Extension was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 1) ```npm i```
