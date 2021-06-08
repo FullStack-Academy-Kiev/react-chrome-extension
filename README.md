@@ -14,6 +14,6 @@ Doc Instruction -
 
 React App in Popup - ```master``` branch
 
-React App in Content Script - ```react-content-script``` branch (to see App go to ```https://www.google.com/```)
+React App in Content Script - ```react-content``` branch (to see App go to ```https://www.google.com/```)
 
 Vanila JS example for Popup in branch ```popup```, content setting in ```content-settings``` and context menu in branch ```contextmenu```
