@@ -2,7 +2,7 @@
 
 This Chrome Extension was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-1) ```npm i```
+1) ```yarn install```
 2) ```yarn build```
 3) Go to ```chrome://extensions``` in Chrome
 4) Ensure that the Developer mode checkbox in the top right-hand corner is checked
